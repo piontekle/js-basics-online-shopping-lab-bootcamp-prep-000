@@ -33,7 +33,7 @@ function viewCart() {
     return `${string} ${cartList[0]}.`;
   }
   if (cart.length === 2) {
-    return `${string} ${cart[0].itemName} at $${cart[0].itemPrice}, and ${cart[1].itemName} at $${cart[1].itemPrice}.`;
+    return `${string} ${cartList[0], and ${cartList[1].`;
   }
   if (cart.length >= 3) {
     return `${string} ${cartList.slice(0,cartList.length-1).join(", ")}, and ${cartList[cartList.length-1]}.`;
