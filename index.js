@@ -30,7 +30,7 @@ function viewCart() {
   }
 
   if (cart.length === 1) {
-    return `${string} ${cart[0].itemName} at $${cart[0].itemPrice}.`;
+    return `${string} ${cartList[0]}.`;
   }
   if (cart.length === 2) {
     return `${string} ${cart[0].itemName} at $${cart[0].itemPrice}, and ${cart[1].itemName} at $${cart[1].itemPrice}.`;
