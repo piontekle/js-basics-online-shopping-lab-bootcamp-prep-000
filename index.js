@@ -60,11 +60,7 @@ function removeFromCart(item) {
 }
     if(!itemCheck) {
     return "That item is not in your cart.";
-    if(cart[i].hasOwnProperty(item)){
-        itemChecker=true;
-        cart.splice(i,1);
- }
-}
+    }
     if(!itemCheck){
     console.log("That item is not in your cart.");
   }
